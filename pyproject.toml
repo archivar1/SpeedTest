@@ -1,0 +1,19 @@
+[project]
+name = "SpeedTest"
+version = "0.1.0"
+description = "Скрипт для замера средней скорости скачивания файла"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx[socks]>=0.28,<0.29",
+]
+
+[project.scripts]
+speedTest = "main:main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["main"]
