@@ -19,7 +19,7 @@ uv build
 Выполните 
 
 ```sh
-uv run --locked speedTest "https://example.com/file.zip"
+uv run --locked speedTest "https://samplelib.com/jpeg/sample-photo-3840x2160.jpg"
 uv run --locked speedTest --help
 ```
 
